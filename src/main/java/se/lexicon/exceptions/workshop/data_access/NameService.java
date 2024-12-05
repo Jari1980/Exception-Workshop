@@ -3,7 +3,7 @@ package se.lexicon.exceptions.workshop.data_access;
 import java.util.List;
 import java.util.Random;
 
-import se.lexicon.exceptions.workshop.Exception.DuplicateException;
+import se.lexicon.exceptions.workshop.exception.DuplicateException;
 import se.lexicon.exceptions.workshop.domain.Gender;
 import se.lexicon.exceptions.workshop.domain.Person;
 import se.lexicon.exceptions.workshop.fileIO.CSVReader_Writer;

@@ -23,6 +23,7 @@ public class CSVReader_Writer {
         BufferedReader reader = null;
         List<String> names = null;
 
+
         try{
             reader = Files.newBufferedReader(Paths.get("firstname_males.txt"));
             names = reader.lines()
